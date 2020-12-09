@@ -8,91 +8,143 @@
 \usepackage{amssymb}
 \usepackage{tabularx}				% To automatically wrap long column contents
 
-%SetFonts
-
-%SetFonts
-
-
-\title{Test}
+\title{\textbf{Take Home Test}}
 \author{Rahul Subramanian}
 %\date{}							% Activate to display a given date or no date
 
 \begin{document}
 \maketitle
-%\section{}
-%\subsection{}
+
 \newpage
 
-Q1 
+\section{Question}
+1. Assess yourself, from 1 to 4, in the following areas or skills. We are not looking for a candidate to have experience with all, or even a majority, of these areas. This question is much less about the magnitude of the numbers and more about their relation – where do you think your strengths are?
+\newline
+\newline
+1 = Very little or no experience
+\newline
+2 = Some experience, but not yet at a level of full competence and confidence
+\newline
+3 = A lot of experience, generally able to do this work at a professional level
+\newline
+4 = Very experienced, typically the expert on my team or among peers
+\newline
+\begin{itemize}
+    \item PID control
+    \item Model predictive control
+    \item Optimal control methodologies
+    \item Dynamic systems modeling
+    \item Microcontrolers
+    \item Scripting languages
+    \item C/C++
+    \item Software version control
+    \item Experimental design
+    \item Instrumentation
+    \item Data acquisition (NI or other DAQ)
+    \item Project management
+    \item Written communication
+    \item Presentation
+    \item Heat transfer
+    \item Thermodynamics
+    \item Fluid mechanics
+\end{itemize}
 
+\subsection *{Answer}
 \begin{center}
- \begin{tabular}{||c c c c||} 
- \hline
- Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
- \hline\hline
- 1 & 6 & 87837 & 787 \\ 
- \hline
- 2 & 7 & 78 & 5415 \\
- \hline
- 3 & 545 & 778 & 7507 \\
- \hline
- 4 & 545 & 18744 & 7560 \\
- \hline
- 5 & 88 & 788 & 6344 \\ [1ex] 
- \hline
-\end{tabular}
-\end{center}
-
-\begin{center}
- \begin{tabular}{||c c c c||} 
- \hline
-Skill & Level & Description & Support \\ [0.5ex] 
- \hline\hline
- PID Control & 4 & --- & --- \\
- \hline
- Model Predictive Control & 2 & --- & I need to put in the time on this one, I don't need external support. \\
- \hline
- Optimal Control & 2 & --- & I need to learn more about dynamic programming. \\
- \hline
- Dynamic systems modeling & 4 & The only caveat here is, ODEs are a lot friendlier & None, I think PDEs are within reach \\
- \hline
- Microcontrolers & 3 & I put my code on them, though don't write drivers or work with the OS & Firmware engineer \\
- \hline
- Scripting languages & 4 & Matlab & --- \\
- \hline
- C/C++ & 2 & --- & Firmware engineer, but this is on my list of things I need to get very good at. \\
- \hline
- Software version control & 2 & I use it on the reg, but if I run into an issue I call the Git expert & --- \\
- \hline
- Experimental Design & 1 & I just googled this & --- \\
- \hline
- Instrumentation & 2 & I can do this no problem, though it's just generally the systems/test engineer that has handled this in my experience. For example, I generally have taken care of selecting sensors and deciding their interfacing with the micro. & None, I can do this as required, I'll need to read up on different kinds of thermocouples to be totally useful. \\
+\begin{tabularx}{\textwidth}{X l X X}
 \hline
-Data acquisition (NI or other DAQ) & 2 & Same answer as 'Instrumentation' & --- \\
+	Skill &
+	Level & 
+	Description & 
+	Support 
+	\\ [0.5ex] 
+\hline\hline
+	PID Control & 
+	4 & 
+	--- & 
+	--- \\
 \hline
-Project management & 3 & Part of my responsibility is to scope out my work, and plan how long it could possibly take. As I have spent time in thermal teams, I need to figure this out for myself. & --- \\
+	Model Predictive Control & 
+	2 &
+	--- & 
+	I need to put in the time on this one, external support not required. \\
 \hline
-Written communication & 3 & I hope you like this document. & --- \\
+	Optimal Control & 
+	2 & 
+	I need to learn more about dynamic programming for dynamic optimization. But I do kalman filters and LQR & 
+	--- \\
 \hline
-Presentation & 3 & --- & --- \\
+	Dynamic systems modeling & 
+	4 & 
+	ODEs are friendly, PDEs are within reach & 
+	A thermal science expert, to bake what they know into the dynamics \\
 \hline
-Heat transfer & 3 & I have a working knowledge of heat transfer. I don't calculate convective heat transfer coefficients or design HXs. But if I know the U value as a function of inner/outer mdots, I can create a simulation no problem. & A heat transfer engineer that understands convection well. \\
+	Microcontrollers & 
+	3 & 
+	--- & 
+	Firmware engineer to own OS/drivers \\
 \hline
-Thermodynamics & 3 & I'm very comfortable with P-h diagrams for example, and we should add another dimension (mdot) to it as it's quite incomplete to contemplate operating points without fixing evaporator power flux. As with heat transfer though, my working knowledge is not deep - I won't be able to derive the equation of work done for polytropic compression, though I find that equation quite useful for the compressor & Thermodynamics Wrangler \\
+	Scripting languages & 
+	4 & 
+	Matlab & 
+	--- \\
 \hline
-Fluid mechanics & 2 & --- & --- \\
+	C/C++ & 
+	2 & 
+	--- & 
+	Firmware engineer to fill the gap, though I can (and desperately want to) come up to speed with this. Expect me to 	become useful on this within a quarter or two or joining. I have in the past done all my work including real-time code in Simulink \\
 \hline
-
-\end{tabular}
-\end{center}
-
-\begin{tabularx}{\textwidth}{l X X l}
+	Software version control & 
+	2 & 
+	I use it regularly & 
+	Git Wrangler \\
 \hline
-No. & I'm very comfortable with P-h diagrams for example, and we should add another dimension (mdot) to it as it's quite incomplete to contemplate operating points without fixing evaporator power flux. As with heat transfer though, my working knowledge is not deep - I won't be able to
-    & These are very long too... 
-    & 0\\
+	Experimental Design & 1 & I just googled this & --- \\
 \hline
-...
+	Instrumentation & 
+	2 & 
+	It's the systems/test engineer that has handled this in my experience, but I can do this. Related skill - I generally pick sensors and 		decide (with electrical engineer) interfacing with the micro. & 
+	I will need to read the manual on thermocouples, anemometers, etc \\
+\hline
+	Data acquisition (NI or other DAQ) & 
+	2 & 
+	Same answer as 'Instrumentation' & 
+	--- \\
+\hline
 \end{tabularx}
+
+\begin{tabularx}{\textwidth}{X l X X}
+\hline
+	Project management & 
+	3 & 
+	Part of my responsibility is to scope out my work. As I have spent time in thermal teams, there's no one to guide me on this. & 
+	--- \\
+\hline
+	Written communication & 
+	3 & 
+	I hope you like this document. & 
+	--- \\
+\hline
+	Presentation & 
+	3 & 
+	--- & 
+	--- \\
+\hline
+	Heat transfer & 
+	3 & 
+	I have a working knowledge of heat transfer. I don't calculate convective heat transfer coefficients or design HXs. But if I know the U value as a function of inner/outer mdots, I can create a simulation no problem. 		& 
+	Thermal Engineer \\
+\hline
+	Thermodynamics & 
+	3 & 
+	By example - I am very comfortable with P-h diagrams, and we should add mdot as a 3rd dimension to 		contemplate operating points for a constant evaporator power flux to make it complete. I cannot derive the 	equation of work done for polytropic compression, though I find that equation quite useful for the 			compressor & 
+	Thermal Engineer \\
+\hline
+Fluid mechanics & 2 & --- & Thermal Engineer \\
+\hline
+
+\end{tabularx}
+\end{center}
+
 
 \end{document}  
