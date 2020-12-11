@@ -67,7 +67,7 @@ Two considerations for the control design are:
 For the first part:
 \begin{enumerate}
   \item A feedforward component of \(U*(T_{ref} - T_a)\). I am adding this as there is a delay, so an open loop control will help in reaching the target.
-  \item A feedback component \(C(s)\) - proportional control. In reality, a small integrator will also be required as the feedforward will not be perfect.
+  \item A feedback component \(C(s)\) - proportional control. In reality, a small integrator will also be required as the feedforward will not be perfect. The proportional gain can be tuned using stability/performance criteria.
 \end{enumerate}
 For the second part, I will augment the controller with a smith predictor. Here is how a smith predictor works:
 \begin{enumerate}
