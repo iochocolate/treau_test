@@ -88,3 +88,27 @@ The process diagram with the controller is shown below. For reference, \textbf{b
   \includegraphics[width=\textwidth]{control_diagram}
   \caption{Process Diagram}
 \end{figure}
+
+%%%%%%%%%%%%%%
+\subsection *{Parameters}
+I used for polyurethane:
+cp = 1800 J/kg-K
+density = 132.953 Kg/$m^3$
+conduction coefficient = 0.03 W/mK
+\noindent
+The closed loop transfer function with a proportional controller was:
+\begin{equation}
+G(s) = \frac{T(s)}{Q(s)} = \frac{K}{M C_p s + U + K} = \frac{K}{1.68 *10^7 s + 3.2 + K}
+\end{equation}
+\noindent
+If I introduce a time constant requirement of 200 seconds, I get an extremely high gain of K = 82000. I googled residential hot water tanks and this gain would make the system be out of its actuating range for the most part.
+
+%%%%%%%%%%%%%%
+\subsection *{Hardware}
+\begin{itemize}
+  \item Thermistor - connected to ADC input with appropriately sized voltage divider circuit
+  \item Resistive heater - not sure how this is throttled. If this was running off DC, I would use a half bridge that would have a PWM signal going to it from the micro.
+  \item A micro of course for running the software.
+  \item To input set temperature. Potentiometer to an ADC input.
+  \item Display for temperature
+\end{itemize}
