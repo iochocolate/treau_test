@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  11 DEC 2020 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  11 DEC 2020 12:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -399,64 +399,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--13
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 95--95
+Underfull \hbox (badness 2376) in paragraph at lines 96--96
 []|\OT1/cmr/m/n/10.95 Model Pre-dic-tive Con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []|\OT1/cmr/m/n/10.95 Need to learn more
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/cmr/m/n/10.95 about dy-namic pro-
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 95--95
+Underfull \hbox (badness 2065) in paragraph at lines 96--96
 \OT1/cmr/m/n/10.95 gram-ming for dy-namic
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 95--95
+Underfull \hbox (badness 2253) in paragraph at lines 96--96
 []|\OT1/cmr/m/n/10.95 A ther-mal sci-ence ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []|\OT1/cmr/m/n/10.95 Firmware en-gi-neer to
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 95--95
-\OT1/cmr/m/n/10.95 (and des-per-ately want
+Underfull \hbox (badness 1983) in paragraph at lines 96--96
+\OT1/cmr/m/n/10.95 done all my work in-
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 95--95
-\OT1/cmr/m/n/10.95 to) come up to speed
+Underfull \hbox (badness 1466) in paragraph at lines 96--96
+[]|\OT1/cmr/m/n/10.95 I use it reg-u-larly and
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 95--95
+Underfull \hbox (badness 1540) in paragraph at lines 96--96
 \OT1/cmr/m/n/10.95 this in my ex-pe-ri-ence,
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 95--95
-\OT1/cmr/m/n/10.95 man-ual on ther-mo-cou-
  []
 
 [2
 
 ]
-Underfull \hbox (badness 1354) in paragraph at lines 127--127
+Underfull \hbox (badness 1354) in paragraph at lines 129--129
 \OT1/cmr/m/n/10.95 of cal-cu-lat-ing con-vec-tive
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 127--127
+Underfull \hbox (badness 1242) in paragraph at lines 129--129
 \OT1/cmr/m/n/10.95 enough to have a com-
  []
 
@@ -505,7 +500,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--48
 \openout2 = `question_6.aux'.
 
  (./question_6.tex
-<plant.png, id=117, 872.25874pt x 555.07375pt>
+<plant.png, id=118, 872.25874pt x 555.07375pt>
 File: plant.png Graphic file (type png)
 <use plant.png>
 Package pdftex.def Info: plant.png  used on input line 16.
@@ -534,16 +529,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--62
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
-
- []
-
-<control_diagram.png, id=144, 914.41624pt x 544.0325pt>
+<control_diagram.png, id=145, 914.41624pt x 544.0325pt>
 File: control_diagram.png Graphic file (type png)
 <use control_diagram.png>
 Package pdftex.def Info: control_diagram.png  used on input line 88.
@@ -564,8 +554,8 @@ Package rerunfilecheck Info: File `main_test.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 7061 strings out of 480608
- 103964 string characters out of 5903631
+ 7062 strings out of 480608
+ 103971 string characters out of 5903631
  388959 words of memory out of 5000000
  22724 multiletter control sequences out of 15000+600000
  541044 words of font info for 56 fonts, out of 8000000 for 9000
@@ -584,10 +574,10 @@ texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
 live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main_test.pdf (16 pages, 1062586 bytes).
+Output written on main_test.pdf (16 pages, 1062963 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 73 named destinations out of 1000 (max. 500000)
+ 227 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
+ 74 named destinations out of 1000 (max. 500000)
  64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

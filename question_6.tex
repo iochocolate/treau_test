@@ -10,7 +10,7 @@ assumptions.
 
 \subsection *{Answer}
 
-This documents the output of the 90 mins.
+This documents the output of the 90 mins. My hand notes can be found \href{https://bit.ly/test_treau}{here}.
 
 \begin{figure}[h!]
   \includegraphics[scale=0.4]{plant}
@@ -71,16 +71,16 @@ For the first part:
 \end{enumerate}
 For the second part, I will augment the controller with a smith predictor. Here is how a smith predictor works:
 \begin{enumerate}
-  \item The process dynamics are \(G(s)*e^{-\tau s}\) where \(e^{-\tau s}\) is the laplace transform of the pure delay.
+  \item The open loop plant dynamics are \(G(s)*e^{-\tau s}\) where \(e^{-\tau s}\) is the laplace transform of the pure delay.
   \item The smith predictor can be understood in two steps:
   \begin{enumerate}
   \item Cancel out \(G(s)*e^{-\tau s}\)
   \item Replace it with the function \(G_p(s)\), which is a simulated version of \(G(s)\)
   \end{enumerate}
+  \item The controller can be tuned for \(G(s)\), i.e. the \textit{plant without the delay} with a smith predictor.
 \end{enumerate}
 
 \noindent
-\newline
 \newline
 The process diagram with the controller is shown below. For reference, \textbf{blocks highlighted in \textcolor{TealBlue}{blue} are in in the ECU}, the rest is the real plant: \\
 
@@ -110,5 +110,5 @@ If I introduce a time constant requirement of 200 seconds, I get an extremely hi
   \item Resistive heater - not sure how this is throttled. If this was running off DC, I would use a half bridge that would have a PWM signal going to it from the micro.
   \item A micro of course for running the software.
   \item To input set temperature. Potentiometer to an ADC input.
-  \item Display for temperature
+  \item Display for temperature.
 \end{itemize}
