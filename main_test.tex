@@ -9,6 +9,19 @@
 \usepackage{tabularx}				% To automatically wrap long column contents
 \usepackage[dvipsnames]{xcolor}					% For page color
 \pagecolor{white}					% For white page color
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+%\fancyhead[LE,RO]{Rahul S.}
+% \fancyhead[RE,LO]{Take Home Test}
+%\fancyfoot[CE,CO]{\leftmark}
+\fancyfoot[LE,CO]{\thepage}
+
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+
 \usepackage{hyperref}				% To insert URL
 \hypersetup{						% hyperlink formatting
     colorlinks=true,
@@ -20,7 +33,7 @@
     pdfpagemode=FullScreen,
 }
 
-\title{\textbf{Take Home Test}}
+\title{\textbf{Take Home Test - Treau}}
 \author{Rahul Subramanian}
 %\date{}							% Activate to display a given date or no date
 
