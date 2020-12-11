@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  11 DEC 2020 04:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  11 DEC 2020 11:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -273,7 +273,8 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count189
 \l__pdf_internal_box=\box48
 )
-(./main_test.aux)
+(./main_test.aux (./question_1.aux) (./question_2.aux) (./question_3.aux)
+(./question_4.aux) (./question_5.aux) (./question_6.aux))
 \openout1 = `main_test.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -403,18 +404,18 @@ Underfull \hbox (badness 2376) in paragraph at lines 95--95
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 95--95
-[]|\OT1/cmr/m/n/10.95 I need to learn more
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]|\OT1/cmr/m/n/10.95 Need to learn more
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 95--95
-\OT1/cmr/m/n/10.95 ming for dy-namic op-
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+\OT1/cmr/m/n/10.95 about dy-namic pro-
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 95--95
-\OT1/cmr/m/n/10.95 ti-miza-tion. But I do
+Underfull \hbox (badness 2065) in paragraph at lines 95--95
+\OT1/cmr/m/n/10.95 gram-ming for dy-namic
  []
 
 
@@ -450,25 +451,16 @@ Underfull \hbox (badness 2486) in paragraph at lines 95--95
 [2
 
 ]
-Overfull \vbox (11.05255pt too high) has occurred while \output is active []
-
-
-[3]
-Underfull \hbox (badness 1412) in paragraph at lines 127--127
-\OT1/cmr/m/n/10.95 heat trans-fer co-ef-fi-cients
+Underfull \hbox (badness 1354) in paragraph at lines 127--127
+\OT1/cmr/m/n/10.95 of cal-cu-lat-ing con-vec-tive
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 127--127
-\OT1/cmr/m/n/10.95 I know the U value as
+Underfull \hbox (badness 1242) in paragraph at lines 127--127
+\OT1/cmr/m/n/10.95 enough to have a com-
  []
 
-
-Underfull \hbox (badness 2020) in paragraph at lines 127--127
-\OT1/cmr/m/n/10.95 a-grams, and we should
- []
-
-) [4]
+[3]) [4]
 \openout2 = `question_2.aux'.
 
  (./question_2.tex) [5
@@ -483,15 +475,15 @@ Underfull \hbox (badness 2020) in paragraph at lines 127--127
 ]
 \openout2 = `question_4.aux'.
 
- (./question_4.tex) [7
+ (./question_4.tex)
+[7
 
 
 ]
 \openout2 = `question_5.aux'.
 
-
-(./question_5.tex
-<supertruck_arch.png, id=52, 1237.62375pt x 581.17125pt>
+ (./question_5.tex
+<supertruck_arch.png, id=72, 1237.62375pt x 581.17125pt>
 File: supertruck_arch.png Graphic file (type png)
 <use supertruck_arch.png>
 Package pdftex.def Info: supertruck_arch.png  used on input line 13.
@@ -513,7 +505,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--48
 \openout2 = `question_6.aux'.
 
  (./question_6.tex
-<plant.png, id=98, 872.25874pt x 555.07375pt>
+<plant.png, id=117, 872.25874pt x 555.07375pt>
 File: plant.png Graphic file (type png)
 <use plant.png>
 Package pdftex.def Info: plant.png  used on input line 16.
@@ -551,7 +543,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--86
 
  []
 
-<control_diagram.png, id=125, 914.41624pt x 544.0325pt>
+<control_diagram.png, id=144, 914.41624pt x 544.0325pt>
 File: control_diagram.png Graphic file (type png)
 <use control_diagram.png>
 Package pdftex.def Info: control_diagram.png  used on input line 88.
@@ -567,22 +559,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
 (./question_6.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
-
-
-Package rerunfilecheck Warning: File `main_test.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main_test.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  A039AC44CEFD5004ECCD6FFE482C5889;258.
+Package rerunfilecheck Info: File `main_test.out' has not changed.
+(rerunfilecheck)             Checksum: A039AC44CEFD5004ECCD6FFE482C5889;258.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 7032 strings out of 480608
- 103597 string characters out of 5903631
- 388003 words of memory out of 5000000
- 22711 multiletter control sequences out of 15000+600000
+ 7057 strings out of 480608
+ 103923 string characters out of 5903631
+ 388959 words of memory out of 5000000
+ 22724 multiletter control sequences out of 15000+600000
  541044 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,12n,45p,1021b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -599,10 +584,10 @@ texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
 live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main_test.pdf (15 pages, 1058724 bytes).
+Output written on main_test.pdf (15 pages, 1058562 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
+ 216 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
  69 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 
